@@ -38,7 +38,7 @@ body {
     align-items: center;
     font-size: 24px;
     cursor: pointer;
-    perspective: 1000px; /* Se añade perspectiva para efecto 3D */
+    perspective: 1000px;
 }
 
 .card-inner {
@@ -50,7 +50,7 @@ body {
 }
 
 .card.flipped .card-inner {
-    transform: rotateY(180deg); /* Voltear tarjeta */
+    transform: rotateY(180deg); 
 }
 
 .card-front,
@@ -67,6 +67,6 @@ body {
 }
 
 .card-back {
-    background-color: #8bc34a; /* Color de fondo de la parte posterior de la tarjeta */
-    transform: rotateY(180deg); /* Inicialmente ocultar parte posterior */
+    background-color: #8bc34a; 
+    transform: rotateY(180deg);
 }
